@@ -1,0 +1,55 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.31101.0 (ba0e4041).
+//
+// e:\learnqt\testqt\testqt\x64\debug\testcom.tlh
+//
+// C++ source equivalent of Win32 type library E:\\testcpp\\TestCOM.tlb
+// compiler-generated file created 11/21/15 at 11:50:12 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace TestCOM {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("f0c0a350-22f0-4d3d-a5d8-a11bfe430515"))
+/* LIBID */ __TestCOM;
+struct __declspec(uuid("67f6aa4c-a9a5-4682-98f9-15bdf2246a74"))
+/* dual interface */ ICalculator;
+struct /* coclass */ ManagedClass;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ICalculator, __uuidof(ICalculator));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("67f6aa4c-a9a5-4682-98f9-15bdf2246a74"))
+ICalculator : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall Add (
+        /*[in]*/ long Number1,
+        /*[in]*/ long Number2,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("7884998b-0504-4cbe-9ff9-6bbaa9776188"))
+ManagedClass;
+    // interface _Object
+    // [ default ] interface ICalculator
+
+} // namespace TestCOM
+
+#pragma pack(pop)

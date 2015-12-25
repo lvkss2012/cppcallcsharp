@@ -1,0 +1,10 @@
+E:\TestCOM\TestCOM\bin\Debug\TestCOM.dll
+E:\TestCOM\TestCOM\bin\Debug\TestCOM.pdb
+E:\TestCOM\TestCOM\obj\Debug\TestCOM.csprojResolveAssemblyReference.cache
+E:\TestCOM\TestCOM\obj\Debug\TestCOM.dll
+E:\TestCOM\TestCOM\obj\Debug\TestCOM.pdb
+C:\Users\Administrator\Desktop\TestCOM\TestCOM\bin\Debug\TestCOM.dll
+C:\Users\Administrator\Desktop\TestCOM\TestCOM\bin\Debug\TestCOM.pdb
+C:\Users\Administrator\Desktop\TestCOM\TestCOM\obj\Debug\TestCOM.dll
+C:\Users\Administrator\Desktop\TestCOM\TestCOM\obj\Debug\TestCOM.pdb
+C:\Users\Administrator\Desktop\TestCOM\TestCOM\bin\Debug\TestCOM.tlb

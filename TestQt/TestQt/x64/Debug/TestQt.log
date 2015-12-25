@@ -1,0 +1,17 @@
+﻿Build started 2015/11/21 12:24:00.
+     1>Project "E:\LearnQt\TestQt\TestQt\TestQt.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (TestQt.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtCore /ID:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtGui /ID:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtQml /ID:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtWidgets /ID:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtXml /ID:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtXmlPatterns /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt testqt.cpp
+         testqt.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\LearnQt\TestQt\x64\Debug\\a.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Qmld.lib Qt5Widgetsd.lib Qt5Xmld.lib Qt5XmlPatternsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\LearnQt\TestQt\x64\Debug\a.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\LearnQt\TestQt\x64\Debug\a.lib" /MACHINE:X64 x64\Debug\moc_testqt.obj
+         x64\Debug\qrc_testqt.obj
+         x64\Debug\main.obj
+         x64\Debug\testqt.obj
+         TestQt.vcxproj -> E:\LearnQt\TestQt\x64\Debug\a.exe
+     1>Done Building Project "E:\LearnQt\TestQt\TestQt\TestQt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02
